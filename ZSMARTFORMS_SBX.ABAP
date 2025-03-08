@@ -9,7 +9,7 @@ TABLES: t001, "Empresas.
         bkpf. "Segmento do documento contabilidade financeira.
 
 "primeira parte
-DATA: it_empresas     TYPE zempresa_tt,
+DATA: it_empresas     TYPE zempresa_tt ,
       ls_empresa      TYPE zempresa_st,
       it_empresas_fat TYPE TABLE OF bkpf,
       ls_empresa_fat  TYPE bkpf.
