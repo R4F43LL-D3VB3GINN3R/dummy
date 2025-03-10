@@ -8,7 +8,7 @@
 
 REPORT zdelnote_driver.
 
-TABLES: lips, likp, tvko, adrc .
+TABLES: lips, likp, tvko, adrc  .
 
 "---------
 
