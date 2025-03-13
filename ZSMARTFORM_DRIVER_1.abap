@@ -6,7 +6,7 @@
 REPORT zsmartform_driver_1.
 
 "smartform name
-DATA: fname TYPE tdsfname.
+DATA: fname TYPE tdsfname .
 fname = 'ZSF_ORDER_28_1'.
 
 "function smartform name
