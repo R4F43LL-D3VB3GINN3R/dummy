@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope
+	xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+	<soap:Header>
+		<erpContext method="Create" />
+	</soap:Header>
+	<soap:Body>
+		<sap:ZzBpoIncomingInvCreate
+			xmlns:sap="urn:sap-com:document:sap:soap:functions:mc-style">
+			<Headerdata>
+				<InvoiceInd>X</InvoiceInd>
+				<DocType>RE</DocType>
+				<DocDate>2025-05-19</DocDate>
+				<PstngDate>2025-05-21</PstngDate>
+				<RefDocNo>66/01</RefDocNo>
+				<CompCode>ES50</CompCode>
+				<DiffInv/>
+				<Currency>EUR</Currency>
+				<CurrencyIso>EUR</CurrencyIso>
+				<ExchRate>0.00000</ExchRate>
+				<GrossAmount>3049.2</GrossAmount>
+				<CalcTaxInd>X</CalcTaxInd>
+				<Pmnttrms>N608</Pmnttrms>
+				<BlineDate>2025-05-19</BlineDate>
+				<HeaderTxt/>
+				<PmntBlock/>
+				<PartnerBk>EUR</PartnerBk>
+				<AllocNmbr/>
+				<BusArea/>
+				<ItemText/>
+				<VatRegNo/>
+				<VendorNumber>0000015461</VendorNumber>
+			</Headerdata>
+			<Extensionin></Extensionin>
+			<Glaccountdata></Glaccountdata>
+			<Invoicestatus>5</Invoicestatus>
+			<Itemdata>
+				<item>
+					<InvoiceDocItem>1</InvoiceDocItem>
+					<PoNumber>4500068568</PoNumber>
+					<PoItem>00010</PoItem>
+					<RefDoc>5000022894</RefDoc>
+					<RefDocYear>2025</RefDocYear>
+					<RefDocIt>0001</RefDocIt>
+					<DeCreInd/>
+					<TaxCode>1A</TaxCode>
+					<ItemAmount>2520</ItemAmount>
+					<Quantity>20</Quantity>
+					<PoUnit>UN</PoUnit>
+					<PoUnitIso>PCE</PoUnitIso>
+					<PoPrQnt/>
+					<PoPrUom>UN</PoPrUom>
+					<CondType/>
+					<ItemText/>
+					<FreightVen/>
+					<SheetItem>0001</SheetItem>
+					<SheetNo>5000022894</SheetNo>
+				</item>
+			</Itemdata>
+			<Accountingdata></Accountingdata>
+			<Withtaxdata></Withtaxdata>
+			<Return />
+		</sap:ZzBpoIncomingInvCreate>
+	</soap:Body>
+</soap:Envelope>
